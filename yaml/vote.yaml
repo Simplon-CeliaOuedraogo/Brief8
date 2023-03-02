@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vote
-        image: celiaoued/vote-app:latest
+        image: celiaoued/vote-app:TAG
         ports:
         - containerPort: 80
         resources:
